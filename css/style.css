@@ -106,6 +106,10 @@ body {
     padding: var(--section-padding);
     max-width: var(--content-max-width);
     margin: 0 auto;
+    opacity: 1 !important;
+    /* Force sections to be visible */
+    transform: none !important;
+    /* Remove any transform that might hide content */
 }
 
 /* Skills grid */

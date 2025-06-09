@@ -21,27 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // Add intersection observer for fade-in animations
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        },
-        { threshold: 0.1 }
-    );
-
-    // Observe all sections
-    document.querySelectorAll('.section').forEach(section => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
-        observer.observe(section);
-    });
-
-    // Add visible class for fade-in animation
-    document.querySelector('.hero').classList.add('visible');
 }); 
