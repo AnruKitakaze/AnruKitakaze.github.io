@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrei Rudenov - Python / Go Backend Developer</title>
+    
+    <!-- Material Design Web Components -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dark-theme.css" rel="stylesheet">
+</head>
+<body class="mdc-typography">
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="mdc-typography--headline2">Andrei Rudenov</h1>
+            <h2 class="mdc-typography--headline4">Python / Go Backend Developer</h2>
+            <p class="mdc-typography--subtitle1">Building robust services at scale</p>
+            
+            <div class="social-links">
+                <a href="mailto:andrei.rudenov+ghio@gmail.com" class="mdc-button mdc-button--raised">
+                    <span class="material-icons">email</span>
+                    <span class="mdc-button__label">Email</span>
+                </a>
+                <a href="https://career.habr.com/anrukitataze" class="mdc-button mdc-button--raised">
+                    <span class="material-icons">work</span>
+                    <span class="mdc-button__label">Habr Career</span>
+                </a>
+                <a href="https://github.com/anrukitakaze" class="mdc-button mdc-button--raised">
+                    <span class="material-icons">code</span>
+                    <span class="mdc-button__label">GitHub</span>
+                </a>
+            </div>
+            
+            <div class="cv-buttons">
+                <!-- <a href="cv_ru.pdf" target="_blank" class="mdc-button mdc-button--outlined">
+                    <span class="material-icons">description</span>
+                    <span class="mdc-button__label">CV (RU)</span>
+                </a> -->
+                <button class="mdc-button mdc-button--outlined" disabled>
+                    <span class="material-icons">description</span>
+                    <span class="mdc-button__label">CV (EN / RU) - Coming Soon</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="mdc-typography--headline3">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3 class="mdc-typography--headline6">Languages</h3>
+                <div class="skill-chips">
+                    <div class="mdc-chip">Go</div>
+                    <div class="mdc-chip">Python</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="mdc-typography--headline6">Databases</h3>
+                <div class="skill-chips">
+                    <div class="mdc-chip">PostgreSQL</div>
+                    <div class="mdc-chip">MongoDB</div>
+                    <div class="mdc-chip">Redis</div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3 class="mdc-typography--headline6">Tools & Infrastructure</h3>
+                <div class="skill-chips">
+                    <div class="mdc-chip">Docker</div>
+                    <div class="mdc-chip">Kubernetes</div>
+                    <div class="mdc-chip">RabbitMQ</div>
+                    <div class="mdc-chip">GitLab CI/CD</div>
+                    <div class="mdc-chip">MinIO</div>
+                    <div class="mdc-chip">Grafana</div>
+                    <div class="mdc-chip">Prometheus</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2 class="mdc-typography--headline3">Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-card mdc-card">
+                <div class="mdc-card__primary-action">
+                    <div class="card-content">
+                        <h3 class="mdc-typography--headline5">Tochka Bank</h3>
+                        <h4 class="mdc-typography--subtitle1">2024–2025, 1y 4m</h4>
+                        <ul class="mdc-typography--body1">
+                            <li>Built high-load backend services for SBP payments in Python & Go</li>
+                            <li>Made a replica for OLAP database queries, implemented retries and error handling</li>
+                            <li>Standardized tooling, led internal knowledge sharing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-card mdc-card">
+                <div class="mdc-card__primary-action">
+                    <div class="card-content">
+                        <h3 class="mdc-typography--headline5">TASS</h3>
+                        <h4 class="mdc-typography--subtitle1">2022–2023, 1y 6m</h4>
+                        <ul class="mdc-typography--body1">
+                            <li>Created CRM for editorial workflows, replaces external CRM, reduced costs</li>
+                            <li>Built services for the main site and mobile app</li>
+                            <li>Leaded a team, decomposed tasks, conducted onboarding sessions, participated in interviews</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-card mdc-card">
+                <div class="mdc-card__primary-action">
+                    <div class="card-content">
+                        <h3 class="mdc-typography--headline5">Orion Technologies</h3>
+                        <h4 class="mdc-typography--subtitle1">2021–2022, 1 year</h4>
+                        <ul class="mdc-typography--body1">
+                            <li>Built ML microservices for audio toxicity analysis in call centers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="mdc-typography--headline3">Education</h2>
+        <div class="education-card mdc-card">
+            <div class="mdc-card__primary-action">
+                <div class="card-content">
+                    <h3 class="mdc-typography--headline5">Bachelor's in Mathematics and Computer Science</h3>
+                    <h4 class="mdc-typography--subtitle1">Siberian Federal University, 2021</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Channel Section -->
+    <section id="youtube" class="section">
+        <h2 class="mdc-typography--headline3">Educational Content</h2>
+        <div class="youtube-card mdc-card">
+            <div class="mdc-card__primary-action">
+                <div class="card-content">
+                    <div class="youtube-header">
+                        <span class="material-icons youtube-icon">smart_display</span>
+                        <h3 class="mdc-typography--headline5">@AnruDev</h3>
+                    </div>
+                    <p class="mdc-typography--body1">
+                        I create in-depth technical content for beginners, students and developers, focusing on practical knowledge and real-world experience
+                    </p>
+                    <a href="https://youtube.com/@AnruDev" target="_blank" class="mdc-button mdc-button--raised youtube-button">
+                        <span class="material-icons">play_circle</span>
+                        <span class="mdc-button__label">Watch on YouTube</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="mdc-typography--headline3">Contact</h2>
+        <div class="contact-grid">
+            <a href="mailto:andrei.rudenov+ghio@gmail.com" class="contact-item">
+                <span class="material-icons">email</span>
+                <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/andrei-rudenov" class="contact-item">
+                <span class="material-icons">work</span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://career.habr.com/anrukitataze" class="contact-item">
+                <span class="material-icons">work</span>
+                <span>Habr Career</span>
+            </a>
+            <a href="https://github.com/anrukitakaze" class="contact-item">
+                <span class="material-icons">code</span>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.youtube.com/@AnruDev" class="contact-item">
+                <span class="material-icons">video_library</span>
+                <span>YouTube</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p class="mdc-typography--body2">Based in Krasnoyarsk, Russia</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
