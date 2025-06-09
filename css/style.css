@@ -119,6 +119,15 @@ body {
     gap: 2rem;
 }
 
+.skill-subcategory {
+    margin-top: 1rem;
+}
+
+.skill-subcategory h4 {
+    color: var(--mdc-theme-on-surface);
+    margin-bottom: 0.5rem;
+}
+
 .skill-category {
     background: var(--mdc-theme-surface);
     padding: 1.5rem;
